@@ -130,7 +130,7 @@ class PurePursuitController:
             ind += 1
 
         # terminating condition
-        if dist < 1.0:
+        if dist < 0.3:
             self.is_finished = True
             pass
 
