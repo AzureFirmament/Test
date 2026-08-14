@@ -19,3 +19,4 @@ pyserial
 pyubx2
 geopy
 utm
+pandas
