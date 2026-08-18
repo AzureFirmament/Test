@@ -61,3 +61,4 @@ def main(
                             "localization/base_frame": f"{name}/base_link",
                         })
 
+    bl.include("foxglove_bridge", "foxglove_bridge_launch.xml")
