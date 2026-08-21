@@ -7,8 +7,8 @@ MAP_NAME = "sml"
 def main(
     is_sim: bool = True,
     use_foxglove: bool = True,
-    initial_pose_x: float = 0.0,
-    initial_pose_y: float = 0.0,
+    initial_pose_x: float = -2.5,
+    initial_pose_y: float = -1.0,
     initial_pose_a: float = 0.0,
     points: str = '[[-2.3, -7.1], [10.5, 11.7], [5.7,  15.0], [-7.0, -4.0]]',
 ):
