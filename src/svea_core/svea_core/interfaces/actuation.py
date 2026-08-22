@@ -97,6 +97,8 @@ class ActuationInterface(rx.Field):
         msg.aux4 = 1000.0 - self.xtr1_percent * 20.0
         msg.aux5 = 1000 + float(self.xtr2_percent * 10)  # aux5
 
+        self.node.get_logger().info(f"Velocity: {self.velocity_percent:.2f}%, Steering: {self.steering_percent:.2f}%.")
+
         self.control_pub.publish(msg)
 
     def send_control(self,
